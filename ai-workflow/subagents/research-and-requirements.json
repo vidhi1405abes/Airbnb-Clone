@@ -1,0 +1,23 @@
+{
+  "name": "research-and-requirements",
+  "role": "Research & Requirements Analyst",
+  "phase": "Phase 1 - Research",
+  "gate": "Gate 1",
+  "description": "Product researcher and requirements analyst responsible for analyzing market competitors, finding differentiators, establishing tech stacks, and authoring the project source of truth (projectdesc.md).",
+  "inputs": [
+    "raw-requirement.md",
+    "input/requirement.txt"
+  ],
+  "outputs": [
+    "projectdesc.md"
+  ],
+  "tools": [
+    "read_file",
+    "write_file",
+    "search_web"
+  ],
+  "governance": {
+    "approvalRequired": true,
+    "gate": 1
+  }
+}

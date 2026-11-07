@@ -16,15 +16,22 @@
     "serverDev": "cd server && npm run dev"
   },
   "aiWorkflow": {
-    "enabled": true,
+    "orchestrator": "SDLC Orchestrator (README.md)",
     "agents": [
-      "frontend-architect",
-      "api-engineer",
-      "qa-accessibility-specialist"
+      "research-and-requirements",
+      "developer",
+      "tester"
     ],
-    "skills": [
-      "pixel-perfect-inspection",
-      "system-design-generator"
+    "phases": [
+      "Phase 0: Setup",
+      "Phase 1: Research (Gate 1)",
+      "Phase 2: Development Plan (Gate 2)",
+      "Phase 3: Build",
+      "Phase 4: Test Plan (Gate 3)",
+      "Phase 5: Test Run",
+      "Phase 6: Fix",
+      "Phase 7: Showcase (Gate 4)",
+      "Phase 8: Deliver"
     ]
   }
 }

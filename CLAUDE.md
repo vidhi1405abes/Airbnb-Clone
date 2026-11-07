@@ -53,9 +53,12 @@ npm start         # Run compiled production server
 
 ```
 airbnb-clone/
-├── AGENTS.md                  # Multi-agent architecture and role specifications
+├── AGENTS.md                  # Multi-agent architecture & SDLC agent specifications
 ├── CLAUDE.md                  # Project instructions for Claude AI assistants
 ├── .claude/                   # Claude configuration, agents, and rules
+│   ├── settings.json          # Project configuration & agent mappings
+│   ├── rules/code-standards.md# Coding rules and accessibility requirements
+│   └── agents/                # SDLC agents (research-and-requirements, developer, tester)
 ├── package.json               # Root workspace scripts (npm run dev, npm run build)
 ├── README.md                  # Setup and architecture documentation
 ├── architecture/              # Scalable system design artifacts
@@ -65,7 +68,7 @@ airbnb-clone/
 │   └── ARCHITECTURE.md            # Distributed scaling whitepaper (100M+ listings)
 ├── ai-workflow/               # AI prompts, skills, and subagent configs
 │   ├── prompt-sequence.md         # Chronological AI prompts sequence
-│   ├── subagents/                 # Specialized subagent JSON configs
+│   ├── subagents/                 # SDLC agent specifications
 │   └── skills/                    # Custom inspection skills
 ├── client/                    # Frontend React 18 + Vite + Tailwind CSS
 │   ├── src/
