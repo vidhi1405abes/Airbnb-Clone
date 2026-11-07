@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/claude-settings.json",
+  "project": {
+    "name": "airbnb-clone",
+    "description": "Production-grade pixel-perfect Airbnb listing clone with React 18, Node.js Express, and distributed vacation-rental architecture.",
+    "version": "1.0.0"
+  },
+  "environment": {
+    "node": ">=18.0.0",
+    "packageManager": "npm"
+  },
+  "devCommands": {
+    "start": "npm run dev",
+    "build": "npm run build",
+    "clientDev": "cd client && npm run dev",
+    "serverDev": "cd server && npm run dev"
+  },
+  "aiWorkflow": {
+    "enabled": true,
+    "agents": [
+      "frontend-architect",
+      "api-engineer",
+      "qa-accessibility-specialist"
+    ],
+    "skills": [
+      "pixel-perfect-inspection",
+      "system-design-generator"
+    ]
+  }
+}
